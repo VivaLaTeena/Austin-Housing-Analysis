@@ -1,2 +1,11 @@
-ZipCode,Population,MedianHouseholdIncome,Ethnicity,Education
-78741,"46,147","$54,422","{'White': '27,297,46.64%', 'Black': '5,124,8.75%', 'Hispanic': '23,184,39.61%', 'Asian': '2,018,3.45%', 'Native American': '838,1.43%', 'Hawaiian/Pac. Islander': '66,0.11%'}","{'Less Than 1 Year of College': '1,054,6.22%', 'Bachelor Degree': '3,655,21.58%', 'High School Diploma': '4,161,24.57%', 'No High School Diploma': '310,1.83%', 'GED or Alternate': '1,020,6.02%', '1 or More Years of College': '3,849,22.73%', 'Associates Degree': '1,139,6.73%', 'Masters Degree': '1,294,7.64%', 'Professional Degree': '224,1.32%', 'Doctorate Degree': '223,1.32%'}"
+ZipCode,Population,MedianHouseholdIncome,Ethnicity,Value,Education,Value
+78741,"46,147","$54,422",White,"27,297,46.64%",Less Than 1 Year of College,"1,054,6.22%"
+,,,Black,"5,124,8.75%",Bachelor Degree,"3,655,21.58%"
+,,,Hispanic,"23,184,39.61%",High School Diploma,"4,161,24.57%"
+,,,Asian,"2,018,3.45%",No High School Diploma,"310,1.83%"
+,,,Native American,"838,1.43%",GED or Alternate,"1,020,6.02%"
+,,,Hawaiian/Pac. Islander,"66,0.11%",1 or More Years of College,"3,849,22.73%"
+,,,,,Associates Degree,"1,139,6.73%"
+,,,,,Masters Degree,"1,294,7.64%"
+,,,,,Professional Degree,"224,1.32%"
+,,,,,Doctorate Degree,"223,1.32%"

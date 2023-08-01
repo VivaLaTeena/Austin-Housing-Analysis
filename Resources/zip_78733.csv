@@ -1,4 +1,4 @@
-ZipCode,Population,MedianHouseholdIncome,Ethnicity,Value,Education,Value
+ZipCode,Population,MedianHouseholdIncome,Ethnicity,% of People of this Ethinicy,Degree Earned ,% of People with this Degree
 78733,"9,500","$187,778",White,"6,951,72.92%",Less Than 1 Year of College,"112,1.89%"
 ,,,Black,"100,1.05%",Bachelor Degree,"2,034,34.31%"
 ,,,Hispanic,"914,9.59%",High School Diploma,"465,7.84%"

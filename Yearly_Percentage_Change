@@ -1,0 +1,38 @@
+#Create Bar Graph to show the difference in change in Zip Codes
+
+
+# Using the DataFrame named updated_2022_values, Find the percent change for each Zip
+# Indices for rows of interest
+indices_of_interest = [78748, 78741, 78729, 78724, 78733]
+
+# Calculate the percent change from Jan to Dec for each row with specified indices
+percent_changes = {}
+
+for index in indices_of_interest:
+    percent_change = (updated_2022_values.loc[index, 'Dec'] - updated_2022_values.loc[index, 'Jan']) / updated_2022_values.loc[index, 'Jan'] * 100
+    percent_changes[index] = percent_change
+
+# Convert the percent_changes dictionary to a pandas Series for easy plotting
+percent_changes_series = pd.Series(percent_changes)
+
+# Define custom colors for each bar
+custom_colors = ['coral', 'magenta', 'lavender', 'purple', 'red']
+
+# Create a bar plot for the percent changes with custom colors
+plt.figure(figsize=(6, 4.5))
+bars = percent_changes_series.plot(kind='bar', color=custom_colors)
+plt.title('2022 % Change in Home Values from Jan to Dec by Zip')
+plt.xlabel('Zip Code')
+plt.ylabel('Percent Change (%)')
+plt.xticks(rotation=45)
+plt.grid(axis='y', linestyle='--', alpha=0.7)
+
+# Add labels to the bars
+for idx, value in enumerate(percent_changes_series):
+    plt.text(idx, value, f"{value:.2f}%", ha='center', va='bottom', fontsize=8)
+
+plt.tight_layout()
+plt.show()
+
+# Save the figure
+plt.savefig("Resources/TotalPercentChange.png")

@@ -1,3 +1,14 @@
+In this read me we will begin with a guide for the repository and then our analysis bewow: 
+
+To being please make a local clone of this repository. within the main folder there is 3 files that need to be addressed. 
+1: README.md - this read me file with instructions and our teams analysis
+2: demographics_vs_housing_prices__1_(3).pptx - this is our teams presentation of the results we found during this project
+3: valuations.ipynb - this file is our final code to use 
+
+Next within the reasources folder we have 8 files. 5 of these are saved dataframes outputted as csv files from our api for each zip code in our project. The other 3 files are csv files from Zillow for the market values we required in different ways.
+
+When running our code for testing purposes pleas enote the api and api key are set up in the main code not on a secondary sheet. This code is linked to an account from a memeber of our group but it is their direct key so should provide no issues. All files paths are realitive and set up to read in or output directly from the reasources folder when cloned properly. Now please see below for our analaysis.
+
 Hypothesis: Our analysis will reveal that the variables of Education, Income, and Ethnicity have a significant impact on housing prices in the 5 selected zip codes within the Austin city limits.
 
 ANALYSIS

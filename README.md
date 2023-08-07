@@ -10,9 +10,12 @@ In this read me we will begin with a guide for the repository and then our analy
 
 ## To Clone Repo, Installing Dependencies & Run Jupyter
 
-$ git clone https://github.com/VivaLaTeena/project.git
-$ cd project
-$ conda install pandas
+$ git clone https://github.com/VivaLaTeena/project.git   
+
+$ cd project   
+
+$ conda install pandas   
+
 $ jupyter lab
 
 ## Repository Contents

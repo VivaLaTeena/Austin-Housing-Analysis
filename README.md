@@ -2,9 +2,9 @@
 <hr>
 In this project we used historical home value prices from zillow and population zip code data to determine which population factors have the largest affect on home prices.
 
-## [Presentation] (./demographics_vs_housing_prices__1_ (3).pptx)
+## [Presentation] ([./demographics_vs_housing_prices__1_ (3).pptx](https://github.com/VivaLaTeena/project/blob/main/demographics_vs_housing_prices__1_%20(3).pptx))
 
-## [Jupyter Notebook] (./valuations.ipynb)
+## [Jupyter Notebook] ([./valuations.ipynb](https://github.com/VivaLaTeena/project/blob/main/valuations.ipynb))
 
 In this read me we will begin with a guide for the repository and then our analysis bewow: 
 

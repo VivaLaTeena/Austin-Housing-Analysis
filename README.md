@@ -1,3 +1,11 @@
+# AUSTIN HOME VALUE FACTORS
+<hr>
+In this project we used historical home value prices from zillow and population zip code data to determine which population factors have the largest affect on home prices.
+
+## [Presentation] (./demographics_vs_housing_prices__1_ (3).pptx)
+
+## [Jupyter Notebook] (./valuations.ipynb)
+
 In this read me we will begin with a guide for the repository and then our analysis bewow: 
 
 To being please make a local clone of this repository. within the main folder there is 3 files that need to be addressed. 
@@ -9,9 +17,9 @@ Next within the reasources folder we have 8 files. 5 of these are saved datafram
 
 When running our code for testing purposes pleas enote the api and api key are set up in the main code not on a secondary sheet. This code is linked to an account from a memeber of our group but it is their direct key so should provide no issues. All files paths are realitive and set up to read in or output directly from the reasources folder when cloned properly. Now please see below for our analaysis.
 
-Hypothesis: Our analysis will reveal that the variables of Education, Income, and Ethnicity have a significant impact on housing prices in the 5 selected zip codes within the Austin city limits.
+## Hypothesis: Our analysis will reveal that the variables of Education, Income, and Ethnicity have a significant impact on housing prices in the 5 selected zip codes within the Austin city limits.
 
-ANALYSIS
+## ANALYSIS
 
 What Factors Most Impact Housing Value?
 
@@ -27,7 +35,7 @@ Zip Code 78729 provides a balanced combination of moderate population, income, h
  Zip Code 78724 offers more affordable housing options but has a higher crime rate, which buyers should consider in their decision making process.
 
 
-Conclusion:
+## Conclusion:
  
 Based on the analysis of the five selected zip codes within the Austin city limits, our findings support the hypothesis that the variables of Education, Income, and Ethnicity have a significant impact on housing prices in these areas.
 

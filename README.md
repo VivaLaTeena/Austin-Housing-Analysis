@@ -22,8 +22,10 @@ $ jupyter lab
 
 Our presentation and main code from our jupyter notebook are listed above.
 
+#### [Outputs] (https://github.com/VivaLaTeena/project/tree/main/Outputs)
 The Outputs folder contains captured images from each of the plots created within out notebook for easier veiwing.
 
+#### [Resources] (https://github.com/VivaLaTeena/project/tree/main/Resources)
 Next within the reasources folder we have 8 files. 5 of these are saved dataframes outputted as csv files from our api for each zip code in our project. The other 3 files are csv files from Zillow for the market values we required in different ways.
 
 When running our code for testing purposes pleas note the api and api key are set up in the main code not on a secondary sheet. This code is linked to an account from a memeber of our group but it is their direct key so should provide no issues. All files paths are realitive and set up to read in or output directly from the reasources folder when cloned properly. Now please see below for our analaysis.
